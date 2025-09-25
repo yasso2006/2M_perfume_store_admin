@@ -228,7 +228,7 @@ function Products() {
                   onChange={(e) => {
                     setImage1(e.target.files[0]);
                   }}
-                  required
+                  required={mode === "add"}
                 />
               </label>
               <label>
